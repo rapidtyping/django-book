@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="es-PE">
+    <meta charset="UTF-8">
+    <body>
+        <h1>Mi plantilla del cap4</h1>
+        <p>Usamos una plantilla para los ejemplos de fecha actual</p>
+        {% block content %}{% endblock %}
+        {% block footer %}
+        <p>
+            **** My footer ****
+            Si no se cambia este footer es comun a todas
+            las plantillas que extiendan de esta
+        </p>
+        {% endblock %}
+
+    </body>
+</html>

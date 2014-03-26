@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="es-PE">
+    <meta charset="UTF-8">
+    <body>
+        <h1>Ejemplo fecha actual usando un template de un 
+        archivo html</h1>
+        <h1>Pero en esta ocasión usamos menos código</h1>
+        <p>Con render_to_response de django.shorcuts</p>
+        <p>Y el return quedo asi:</p>
+        <p>return render_to_response('archivo.html',
+         {'fecha_actual': var_fecha_actual})</p>
+        <h3>La fecha actual es: {{ fecha_actual }}</h3>
+    </body>
+</html>
